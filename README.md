@@ -12,7 +12,7 @@
 > Browser Version (HTML)
 >
 > 📥 **Download Excel**  
-> Excel Workbook (.xlsx)
+> [Download Link](https://alexhasgreatestuff.gumroad.com/l/ufscrp)
 
 ---
 
