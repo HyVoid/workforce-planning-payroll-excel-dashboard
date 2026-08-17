@@ -8,8 +8,7 @@
 
 > ## No signup. No installation. Free.
 >
-> 🌐 **Open in Browser**  
-> Browser Version (HTML)
+> 🌐 **Open in Browser** → [Browser Version (HTML)](https://hyvoid.github.io/Enterprise-Payroll-Annual-Workforce-Capacity-Planning-Excel-Toolkit/)
 >
 > 📥 **Download Excel**  
 > [Download Link](https://alexhasgreatestuff.gumroad.com/l/ufscrp)
