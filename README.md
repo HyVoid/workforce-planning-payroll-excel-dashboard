@@ -15,22 +15,6 @@
 
 ---
 
-## Screenshots
-
-### Browser Version
-
-<!-- screenshot: browser version -->
-
-The browser version provides an interactive operational dashboard for reviewing payroll trends, workforce utilization, annual working-hour consumption, and department comparisons without installing spreadsheet software.
-
-### Excel Version
-
-<!-- screenshot: excel version -->
-
-The Excel workbook is designed for day-to-day operational use, allowing HR, finance, and department managers to update monthly working hours while all summaries and management reports refresh automatically.
-
----
-
 # What Decision Does This Help You Make?
 
 Managing payroll is rarely just about calculating wages.
