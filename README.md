@@ -6,7 +6,9 @@
 
 **A reusable workforce planning toolkit that combines payroll consolidation, annual working-hour tracking, overtime monitoring, and capacity planning—available free in both Browser and Excel with no installation required.**
 
-> ## No signup. No installation. Free.
+**No signup. No installation. Free in your browser.**
+
+Try the browser version for free. If you need the Excel version, you can buy it with a 7-day money-back guarantee.
 >
 > 🌐 **Open in Browser** → [Browser Version (HTML)](https://hyvoid.github.io/Enterprise-Payroll-Annual-Workforce-Capacity-Planning-Excel-Toolkit/)
 >
