@@ -1,601 +1,204 @@
-# Enterprise Payroll & Annual Workforce Capacity Planning Excel Toolkit
+# Enterprise Payroll & Workforce Capacity Planning Excel Template | Labor Cost & Overtime Tracker
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-success)
-![Tool](https://img.shields.io/badge/Tool-Workforce%20Decision%20Support-orange)
+![Tool](https://img.shields.io/badge/Tool-Workforce%20Management%20%28WFM%29-orange)
 
-**A reusable workforce planning toolkit that combines payroll consolidation, annual working-hour tracking, overtime monitoring, and capacity planning—available free in both Browser and Excel with no installation required.**
+**Looking for a reliable workforce capacity planning Excel template? This enterprise payroll tracker and labor cost calculation tool helps HR and Operations managers consolidate monthly payroll, track annual working hours, and monitor overtime dependency. An alternative to complex HRIS software, this free browser and Excel-based staffing capacity dashboard requires no installation and delivers immediate operational insights.**
 
-**No signup. No installation. Free in your browser.**
+**No signup. No ERP integration required. Free in your browser.**
 
-Try the browser version for free. If you need the Excel version, you can buy it with a 30-day, no-questions-asked money-back guarantee.
+Try the interactive browser version for free. For ongoing monthly tracking, you can purchase the fully unlocked Excel version backed by a 30-day, no-questions-asked money-back guarantee.
+
+> 🌐 **Live Interactive Demo** → [Test the Free Online Workforce Planning Dashboard (Browser/HTML)](https://hyvoid.github.io/Enterprise-Payroll-Annual-Workforce-Capacity-Planning-Excel-Toolkit/)
 >
-> 🌐 **Open in Browser** → [Browser Version (HTML)](https://hyvoid.github.io/Enterprise-Payroll-Annual-Workforce-Capacity-Planning-Excel-Toolkit/)
->
-> 📥 **Download Excel**  
-> [Download Link](https://alexhasgreatestuff.gumroad.com/l/ufscrp?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=payroll-workforce-planning)
+> 📥 **Download Template** → [Download the Full Enterprise Payroll & Capacity Planning Excel Toolkit](https://alexhasgreatestuff.gumroad.com/l/ufscrp?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=payroll-workforce-planning)
 
 ---
 
-# What Decision Does This Help You Make?
+## What Strategic HR Decisions Does This Dashboard Help You Make?
 
-Managing payroll is rarely just about calculating wages.
+Managing payroll is rarely just about processing gross wages and tax deductions. The more difficult **workforce management (WFM)** questions usually surface months later:
 
-The more difficult questions usually appear several months later:
+- Which departments are burning through their **annual Full-Time Equivalent (FTE) capacity** faster than budgeted?
+- Is your **overtime dependency** a structural staffing shortage or simply a seasonal demand spike?
+- Which employees are at high risk of exceeding **annual working-hour compliance limits** before Q4?
+- Are surging **labor costs** driven by new hires, unapproved overtime, premium allowances, or inefficient shift scheduling?
+- Can your operations team absorb additional project scope without increasing headcount?
+- Which business unit will become the next **resource allocation bottleneck**?
 
-- Which departments are consuming annual labour capacity faster than expected?
-- Is overtime becoming a structural staffing problem or simply seasonal variation?
-- Which employees are likely to exceed annual contracted hours before year-end?
-- Are payroll costs increasing because of hiring, overtime, allowances, or scheduling inefficiency?
-- Can additional work be accepted without increasing headcount?
-- Which department will become the next workforce bottleneck?
+Legacy payroll processing systems usually only answer: **"What historical wages were paid?"**
 
-Most payroll systems answer **"What was paid?"**
+This toolkit functions as an **operational decision-support system (DSS)** to answer: **"What resource allocation and hiring decisions should we make next?"**
 
-This toolkit focuses on answering **"What operational decisions should be made next?"**
-
-Instead of viewing payroll, working hours, overtime, and annual labour capacity separately, every metric is connected into a single analytical workflow so managers can understand both financial cost and operational capacity at the same time.
-
-Because the workbook uses standard Excel formulas instead of VBA, implementation remains lightweight, transparent, and easy to audit while still supporting organization-wide workforce planning.
+Instead of isolating timesheets, headcount budgets, and labor capacity, every metric is unified into a single **labor cost analysis workflow**. Managers can simultaneously evaluate financial expenditure and operational bandwidth. Built with native Excel array formulas instead of macros (VBA), the architecture remains lightweight, fully auditable, and instantly deployable for enterprise-wide **headcount planning**.
 
 ---
 
-## What It Helps You Track
+## Common HR Pain Points & Staffing Capacity Solutions
 
-- Annual contracted hours versus actual hours consumed before capacity becomes a staffing problem.
-- Payroll cost composition by department, including regular pay, overtime pay, and allowances.
-- Employees approaching annual working-hour limits long before compliance issues occur.
-- Organization-wide labour utilization instead of isolated departmental reports.
-- Overtime dependency that gradually increases operating cost despite stable headcount.
-- Workforce capacity available for future scheduling, production, or project planning.
+Instead of simply logging data, this toolkit directly maps common workforce bottlenecks to automated analytical solutions:
 
----
-
-# Quick Start Workflow
-
-Getting operational insight requires very little setup because the workbook follows a simple input → calculation → dashboard workflow.
-
-### 1. Configure business parameters
-
-Open the **Settings** worksheet and define the organization-wide assumptions only once.
-
-Typical parameters include:
-
-- Fiscal year start
-- Overtime multiplier
-- Capacity warning thresholds
-- Currency
-- Annual planning period
-
-These settings automatically flow through every calculation without editing formulas.
+- **Pain Point: Unexpected Overtime Budget Overruns** 
+  * **Solution:** The **Real-Time Overtime Monitoring Dashboard** tracks departmental overtime ratios, instantly isolating whether premium pay is a temporary anomaly or a structural labor shortage.
+- **Pain Point: Employee Burnout & Labor Compliance Risks** 
+  * **Solution:** The **Annual Contracted Hours Tracker** continuously calculates YTD (Year-to-Date) labor utilization, proactively flagging high-risk staff approaching their contractual limits long before compliance violations occur.
+- **Pain Point: Fragmented Financial Reporting Across Departments** 
+  * **Solution:** The **Automated Payroll Consolidation** engine merges regular wages, overtime pay, and allowances from disparate team spreadsheets into a unified, organization-wide labor cost analysis.
+- **Pain Point: Blind Spots in Future Project Scheduling** 
+  * **Solution:** The **Operational Capacity Forecaster** visualizes remaining unutilized labor hours, allowing project managers to assign upcoming workloads to under-utilized departments without unnecessary external hiring.
 
 ---
 
-### 2. Import existing employee and working-hour data
+## Quick Start Tutorial: How to Analyze Workforce Capacity in 4 Steps
 
-Paste employee information into the master employee table.
+Getting actionable HR intelligence requires zero coding. This workbook follows a streamlined **Input → Calculate → Visualize** workflow. 
 
-Each department then updates only its own monthly worksheet by entering:
+### Step 1: Configure Your Global HR & Payroll Parameters
+Open the **Settings** worksheet to establish your organization's core baseline. You only need to define these enterprise variables once:
+- Fiscal year start date
+- Standard overtime pay multipliers (e.g., 1.5x, 2.0x)
+- Employee utilization warning thresholds (e.g., alert at 85% capacity)
+- Local currency and annual planning horizon
 
+*Action:* These parameters will dynamically cascade through every KPI dashboard without requiring manual formula adjustments.
+
+### Step 2: Import Time-and-Attendance & Labor Cost Data
+Paste your baseline employee roster into the `Employee_Master` table. Next, department managers simply input their monthly timecards into their designated tabs:
 - Employee ID
-- Regular hours
-- Overtime hours
-- Allowances
+- Regular working hours logged
+- Overtime hours approved
+- Supplemental allowances paid
 
-Existing exports from payroll software, HR systems, ERP platforms, or any spreadsheet can be copied directly into the designated input tables.
+*Action:* You can copy-paste raw CSV exports directly from your existing HRIS (e.g., Workday, BambooHR), ERP, or time-tracking software. No complex data transformation required.
 
-No manual restructuring is required.
+### Step 3: Generate the Automated Staffing Capacity Dashboard
+Switch to the `Payroll_Summary`, `Annual_Hours_Tracker`, or `Dashboard` views. The Excel calculation engine instantly renders your operational KPIs:
+- Departmental labor cost variance
+- Cumulative YTD payroll expenditure
+- Remaining annual contractual hours per employee
+- Enterprise-wide labor utilization rates
+- Flight-risk and burnout indicators
 
----
+*Action:* Export these ready-made visualizations directly into your executive management presentations. 
 
-### 3. Review results immediately
+### Step 4: Scale Your Monthly Workforce Planning (Call to Action)
+Repeat the localized data import whenever a new pay period closes. The model automatically appends new data while preserving historical trends for year-over-year analysis. 
 
-Open the Payroll Summary, Annual Hours Tracker, or Dashboard worksheets.
-
-All reports update automatically, including:
-
-- Department payroll totals
-- Year-to-date payroll
-- Remaining annual hours
-- Capacity utilization
-- Overtime ratios
-- Workforce risk indicators
-
-No recalculation or manual report building is necessary.
+> **Ready to move beyond a one-time trial?** After testing your metrics in the browser, 📥 **[Download the reusable Excel Workforce Planning Template](https://alexhasgreatestuff.gumroad.com/l/ufscrp)** to securely store your localized data, conduct offline analysis, and manage continuous monthly payroll cycles without recurring SaaS subscription fees.
 
 ---
 
-### 4. Refresh on a regular schedule
+## Why Choose This Excel Toolkit Over Legacy Payroll Software? (ROI & Efficiency)
 
-Repeat the monthly import process whenever new payroll information becomes available.
-
-The workbook automatically incorporates the additional records while preserving previous history and management reporting.
-
-No redesign, rebuilding, or template maintenance is required.
-
-> **Set a few key parameters. Drop in existing payroll data. Review workforce capacity. Refresh whenever new payroll periods become available.**
-
----
-
-# Why I Built This
-
-Many organizations already own payroll software.
-
-Yet managers still struggle to answer surprisingly basic operational questions.
-
-Payroll systems usually explain how much money has already been paid.
-
-Scheduling systems explain who worked.
-
-HR systems explain employee information.
-
-None of them explain whether the organization is quietly consuming its annual labour capacity faster than expected.
-
-That disconnect often leads to poor operational decisions.
-
-For example, two departments may both exceed payroll budget by 8%.
-
-Without additional context they appear equally inefficient.
-
-However, once annual working-hour utilization is examined, the underlying causes become completely different.
-
-Department A may have temporarily approved additional overtime during seasonal demand.
-
-Department B may already be operating near annual contracted-hour limits every month, creating a structural staffing shortage that will continue increasing overtime costs throughout the year.
-
-The financial result looks similar.
-
-The operational decision should not.
-
-I built this workbook as a reusable analytical framework rather than another payroll calculator.
-
-Instead of producing isolated payroll totals, it connects payroll spending, annual contracted hours, workforce utilization, overtime exposure, and departmental capacity into one decision-support model that can be reused across different organizations without requiring ERP customization.
-## Common Workforce Planning Problems This Solves
-
-| Problem | Without This Tool | With This Tool |
-|----------|------------------|----------------|
-| Payroll is reviewed only after payroll has already been processed. | Overspending is discovered after the accounting period closes, leaving little opportunity for operational correction. | Payroll cost, overtime, and utilization trends become visible throughout the year, allowing earlier intervention. |
-| Annual contracted hours are tracked manually or not tracked at all. | Employees unexpectedly exceed annual working-hour limits, creating compliance risks and scheduling disruption. | Remaining contracted hours and utilization rates are updated automatically for every employee after each reporting cycle. |
-| Department managers maintain separate spreadsheets. | HR and Finance spend hours consolidating inconsistent reports every month. | Seven department worksheets feed a single payroll summary using standardized structures and automatic consolidation. |
-| Overtime appears manageable when viewed employee by employee. | Organization-wide overtime dependency develops gradually and becomes expensive before management notices. | Department overtime ratios expose structural labour shortages rather than isolated overtime events. |
-| Workforce planning and payroll reporting are treated as separate activities. | Payroll decisions optimize cost while ignoring future staffing capacity. | Payroll spending and remaining workforce capacity are evaluated together, improving scheduling and hiring decisions. |
-| HR cannot quickly identify idle versus overloaded employees. | Work allocation becomes uneven, increasing overtime for some teams while leaving capacity unused elsewhere. | Capacity utilization indicators classify employees into normal, under-utilized, or high-risk groups for proactive planning. |
+| Operational Bottleneck (The Problem) | Legacy Approach (Without This Tool) | Optimized Workflow (With This WFM Tool) |
+|--------------------------------------|-------------------------------------|-----------------------------------------|
+| **Post-Mortem Cost Analysis** | Payroll expenditure is audited only *after* accounting periods close, severely limiting budget course-correction. | Labor costs, overtime trends, and budget burn rates are tracked continuously, empowering proactive cost-containment. |
+| **Manual Compliance Tracking** | Contractual FTE hours are monitored via ad-hoc spreadsheets, increasing risks of labor law violations and schedule disruptions. | Remaining capacity and employee utilization rates are auto-calculated per pay period, generating instant compliance alerts. |
+| **Data Silos in Team Management** | Finance and HR teams waste days manually aggregating inconsistent, broken spreadsheets from different shift supervisors. | Up to seven localized department tabs automatically feed a centralized master dashboard via standardized array formulas. |
+| **Hidden Overtime Dependency** | Overtime expenses appear justified when audited on a singular "per-employee" basis. | Department-level overtime ratio analysis exposes systemic understaffing versus isolated surge periods. |
+| **Disconnected Headcount Strategy**| Hiring decisions are made strictly on current payroll cost, ignoring future project bandwidth. | Financial expenditure and remaining labor bandwidth are analyzed synchronously, optimizing both recruitment timing and task delegation. |
 
 ---
 
-## Who This Is For
+## Target Audience & Operational Use Cases
 
-This toolkit is designed for organizations that already collect payroll and working-hour data but need better operational visibility without implementing a complex workforce management platform.
+This template is engineered for organizations that possess raw timesheet data but lack the executive visibility provided by expensive enterprise Workforce Management (WFM) platforms. 
 
-Typical users include:
+**Who Should Use This Excel Template?**
+- **HR Managers seeking an Annualised Hours Tracking Template:** To audit employee working-hour compliance, prevent burnout, and track FTE utilization metrics.
+- **Payroll Administrators needing a Payroll Consolidation Excel Tool:** To seamlessly aggregate multi-department timecards, calculate gross wages, and map allowance distributions without VBA macros.
+- **Finance Directors searching for a Labor Cost Analysis Spreadsheet:** To evaluate departmental budget variances, audit overtime expenditure trends, and forecast year-end workforce liabilities.
+- **Operations & Resource Managers looking for a Capacity Planning Dashboard:** To balance team workloads, predict staffing bottlenecks, and optimize resource allocation for Q3/Q4 production schedules.
+- **Consultants & Fractional CFOs building Client Dashboards:** To deploy a white-label, standardized workforce analytics solution across multiple SME clients.
 
-- HR managers responsible for annualised working-hour compliance.
-- Payroll administrators consolidating multiple department reports.
-- Finance managers monitoring labour costs against budget.
-- Operations managers balancing staffing capacity across departments.
-- Small and medium-sized businesses coordinating several teams from one standardized workbook.
-- Consultants building workforce planning solutions for multiple clients.
-
-This toolkit is **not** intended to replace enterprise HRIS, payroll processing software, or ERP platforms. Instead, it complements existing systems by providing a lightweight decision-support layer focused on workforce capacity, labour utilization, and payroll analysis.
-
-No spreadsheet expertise is required. Open the browser version for quick analysis or use the Excel workbook for operational maintenance and monthly updates.
+*(Note: This toolkit complements, rather than replaces, your foundational HRIS or payroll processing gateway like ADP or Gusto. It acts as an agile, strategic decision-support layer applied on top of your raw data.)*
 
 ---
 
-## About
-
-I build lightweight Excel-based decision-support tools for operational problems that become difficult once too many moving parts interact.
-
-Rather than replacing enterprise systems, these workbooks organize the information that decision-makers actually need in one place before making the next operational choice with confidence.
-
-The **Enterprise Payroll & Annual Workforce Capacity Planning Excel Toolkit** applies that philosophy to workforce planning by combining payroll, labour utilization, annual contracted hours, and operational capacity into one reusable analytical framework.
-
----
-
-# Technical Details
+## Technical Architecture & Formula Reference
 
 <details>
-<summary>For technical reviewers, Excel practitioners, and collaborators</summary>
+<summary>For Excel Developers, Financial Modelers, and Data Analysts</summary>
 
-## Workbook Architecture
+### Relational Workbook Architecture
 
-The workbook follows a layered architecture that separates configuration, operational input, analytical calculation, and executive reporting. This minimizes maintenance effort while ensuring every report references a single source of truth.
+The spreadsheet operates on a strict separation of concerns: Configuration, Master Data, Transactional Input, and Aggregated Presentation. This ensures high data integrity and zero formula overwriting during monthly updates.
 
-| Layer | Worksheets | Primary Responsibility |
-|--------|------------|------------------------|
-| Parameters | Settings | Global assumptions including fiscal year, overtime multiplier, utilization thresholds, currency, and planning horizon. |
-| Master Data | Employee_Master | Employee identifiers, departments, hourly rates, annual contracted hours, validation, and lookup reference. |
-| Operational Input | Dept_1 – Dept_7 | Monthly working hours, overtime, allowances, and departmental payroll input maintained independently by department managers. |
-| Calculation | Payroll_Summary, Annual_Hours_Tracker | Cross-department consolidation, payroll aggregation, annual utilisation, remaining hours, overtime analysis, and risk classification. |
-| Presentation | Dashboard | Executive KPIs, workforce capacity overview, payroll trends, utilization monitoring, and workforce risk indicators. |
+| Architectural Layer | Assigned Worksheets | Core Technical Function |
+|---------------------|---------------------|-------------------------|
+| **Global Parameters** | `Settings` | Centralized variables (Fiscal Year, Overtime Multiplier, KPI Thresholds). |
+| **Master Data Management**| `Employee_Master` | Primary key database for Employee IDs, Base Rates, and Annual FTE Targets. |
+| **Transactional Input** | `Dept_1` – `Dept_7` | Isolated monthly timecard entry environments for front-line managers. |
+| **Data Aggregation** | `Payroll_Summary`, `Annual_Hours_Tracker` | Cross-sheet data modeling utilizing dynamic arrays, `SUMIFS`, and utilization algorithms. |
+| **Presentation UI** | `Dashboard` | Read-only executive summaries, conditional formatting, and chart plotting. |
 
-### Data Flow
+### Core Calculation Logic
 
-```text
-Settings
-        │
-        ▼
-Employee_Master
-        │
-        ▼
-Dept_1 ... Dept_7
-        │
-        ▼
-Payroll_Summary
-        │
-        ▼
-Annual_Hours_Tracker
-        │
-        ▼
-Dashboard
+The tool strictly utilizes native Microsoft 365 / Excel 2021+ functions. **Zero macros (VBA) or Power Query dependencies.**
+
+#### Employee Data Retrieval (XLOOKUP)
+```excel
+=XLOOKUP(Employee_ID, Employee_Master[Employee_ID], Employee_Master[Hourly_Rate], 0, 0)
+
 ```
 
-The design intentionally keeps operational input isolated from calculation layers. Department managers update only their assigned worksheets, while every summary and dashboard refreshes automatically through native Excel formulas.
+*Ensures downstream payroll ledgers instantly reflect rate changes made in the Master dataset.*
 
----
-
-## Three Traps That Catch Even Experienced HR and Operations Managers
-
-### Trap 1 — Payroll Growth Is Mistaken for Workforce Growth
-
-**Decision made**
-
-Management concludes payroll costs are increasing because the workforce has expanded.
-
-**Faulty metric**
-
-Only total payroll expenditure is reviewed.
-
-**Why this changes the recommendation**
-
-Payroll growth may actually be driven by overtime rather than additional employees. Hiring decisions based only on payroll totals often arrive too late.
-
-| Incorrect Interpretation | Correct Interpretation |
-|--------------------------|------------------------|
-| Payroll increased 12%, therefore staffing increased. | Payroll increased because overtime represented a growing share of labour cost. |
-
-The workbook separates regular wages, overtime wages, and allowances so that payroll inflation can be traced to its operational source instead of treating every increase as identical.
-
-<details>
-<summary>Formula logic</summary>
-
-- Gross Pay = Base Pay + Overtime Pay + Allowances
-- Overtime Ratio = Total Overtime Pay ÷ Total Gross Pay
-- Department payroll is consolidated automatically across all operational worksheets.
-
-</details>
-
----
-
-### Trap 2 — Annual Hours Are Reviewed Only After Limits Are Reached
-
-**Decision made**
-
-Scheduling continues normally because current monthly hours appear acceptable.
-
-**Faulty assumption**
-
-Monthly workload is treated independently.
-
-**Why this changes the recommendation**
-
-Annual contracted hours are cumulative rather than monthly.
-
-Employees operating slightly above target every month may exceed contractual limits long before year-end.
-
-| Incorrect Approach | Correct Approach |
-|-------------------|------------------|
-| Review only monthly working hours. | Review cumulative annual utilisation and remaining contracted hours simultaneously. |
-
-The Annual Hours Tracker continuously updates cumulative hours and remaining contractual capacity, allowing future scheduling decisions before capacity is exhausted.
-
-<details>
-<summary>Formula logic</summary>
-
-- Remaining Hours = Annual Contract Hours − YTD Actual Hours
-- Utilization Rate = YTD Actual Hours ÷ Contract Hours
-- Risk status compares utilization against configurable warning thresholds.
-
-</details>
-
----
-
-### Trap 3 — Department Reports Look Healthy Individually but Fail Collectively
-
-**Decision made**
-
-Each department appears within budget, so overall workforce planning is assumed to be healthy.
-
-**Faulty model**
-
-Department reports are reviewed independently.
-
-**Why this changes the recommendation**
-
-Small inefficiencies across multiple departments accumulate into organization-wide overtime dependency and capacity imbalance.
-
-| Individual Review | Consolidated Review |
-|-------------------|--------------------|
-| Every department appears acceptable. | Combined overtime exposure reveals structural staffing pressure across the organization. |
-
-Cross-department consolidation exposes trends that cannot be identified from isolated payroll worksheets.
-
-<details>
-<summary>Formula logic</summary>
-
-- SUMIFS consolidates payroll across all department worksheets.
-- UNIQUE generates organization-wide department lists.
-- XLOOKUP standardizes employee reference data throughout the workbook.
-
-</details>
-
----
-
-## Example Scenario
-
-A company operates seven departments with approximately 120 employees.
-
-During the third quarter, Finance notices payroll spending has increased by approximately **9%** compared with budget.
-
-A traditional payroll report suggests labour costs are simply increasing.
-
-After importing the latest monthly department records into the workbook, the Dashboard immediately highlights three additional observations:
-
-- Department Operations has an overtime ratio above **18%**, significantly higher than every other department.
-- Eight employees have already consumed more than **88%** of their annual contracted hours despite only three quarters of the fiscal year having elapsed.
-- Two departments still retain substantial unused labour capacity.
-
-Rather than approving additional recruitment immediately, management redistributes workload between departments, reducing projected overtime during the final quarter while keeping annual contracted hours within acceptable limits.
-
-The payroll increase therefore reflects a scheduling imbalance rather than an organization-wide staffing shortage.
-
-Instead of making a costly hiring decision based solely on payroll expenditure, management reallocates available workforce capacity and postpones recruitment until workload trends are confirmed.
-
-## Formula Reference
-
-The workbook relies exclusively on native Microsoft Excel functions supported by Microsoft 365 and Excel 2021+. No VBA, Power Query, or external add-ins are required.
-
-<details>
-<summary><strong>Settings & Global Parameters</strong></summary>
-
-| Parameter | Purpose | Used By |
-|------------|---------|---------|
-| Fiscal Year Start | Defines the reporting year | Annual Hours Tracker |
-| Overtime Multiplier | Calculates overtime wages | Department Worksheets |
-| Capacity Warning Threshold | Determines utilization alerts | Annual Hours Tracker |
-| Currency Symbol | Standardizes financial formatting | Entire Workbook |
-| Annual Planning Months | Calculates monthly target hours | Employee Master |
-
-**Design Principle**
-
-Business assumptions are maintained in one location only. Changing a parameter immediately updates every downstream calculation without modifying formulas.
-
-</details>
-
-<details>
-<summary><strong>Employee Master</strong></summary>
-
-### Monthly Target Hours
+#### Cross-Department Gross Payroll Aggregation
 
 ```excel
-=Annual_Contract_Hours / Planning_Months
+=SUMIFS(Dept_1[Gross_Pay], Dept_1[Employee_ID], [@Employee_ID]) + SUMIFS(Dept_2...
+
 ```
 
-Calculates the expected monthly workload for each employee.
+*Creates a seamless enterprise roll-up without requiring complex pivot table refreshes.*
 
----
-
-### Employee Validation
+#### Capacity Risk Classification Engine
 
 ```excel
-=IF(COUNTIF(Employee_ID_Range,Employee_ID)>1,
-"Duplicate",
-"Valid")
-```
-
-Ensures Employee IDs remain unique throughout the workbook.
-
----
-
-### Lookup Logic
-
-Native **XLOOKUP** retrieves:
-
-- Employee Name
-- Department
-- Hourly Rate
-- Contract Hours
-- Employment Status
-
-from the master table instead of duplicating information across worksheets.
-
-</details>
-
-<details>
-<summary><strong>Department Worksheets</strong></summary>
-
-### Employee Information
-
-```excel
-=XLOOKUP(Employee_ID,Employee_Master[Employee_ID],Employee_Master[Employee_Name])
-```
-
-Automatically retrieves employee details from the master dataset.
-
----
-
-### Total Working Hours
-
-```excel
-=Regular_Hours+Overtime_Hours
-```
-
----
-
-### Base Pay
-
-```excel
-=Regular_Hours*Hourly_Rate
-```
-
----
-
-### Overtime Pay
-
-```excel
-=Overtime_Hours
-*Hourly_Rate
-*Overtime_Multiplier
-```
-
----
-
-### Gross Payroll
-
-```excel
-=Base_Pay
-+Overtime_Pay
-+Allowances
-```
-
-All payroll calculations remain transparent and auditable because every intermediate value is visible.
-
-</details>
-
-<details>
-<summary><strong>Payroll Summary</strong></summary>
-
-### Cross-Department Consolidation
-
-Native **SUMIFS** aggregates payroll across every departmental worksheet.
-
-Conceptually:
-
-```excel
-SUMIFS(
-Dept_1
-+
-Dept_2
-...
-+
-Dept_7
+=IFS(
+    Utilization_Rate >= Settings!High_Threshold, "High Risk - Burnout",
+    Utilization_Rate <= Settings!Low_Threshold, "Under-Utilized - Idle Capacity",
+    TRUE, "Optimal Allocation"
 )
+
 ```
 
----
-
-### Department List
-
-```excel
-=UNIQUE(Employee_Master[Department])
-```
-
-Creates the reporting dimension automatically.
-
----
-
-### Overtime Ratio
-
-```excel
-=Total_Overtime_Pay
-/
-Total_Gross_Pay
-```
-
-Highlights departments where overtime is becoming a structural labour cost rather than temporary workload.
-
-</details>
-
-<details>
-<summary><strong>Annual Hours Tracker</strong></summary>
-
-### Year-to-Date Hours
-
-Calculated by summing employee hours across all department worksheets.
-
----
-
-### Remaining Contract Hours
-
-```excel
-=Contract_Hours
--
-YTD_Hours
-```
-
----
-
-### Utilization Rate
-
-```excel
-=YTD_Hours
-/
-Contract_Hours
-```
-
----
-
-### Capacity Risk
-
-```excel
-IF(
-Utilization>=HighThreshold,
-"High Risk",
-IF(
-Utilization<=LowThreshold,
-"Under Utilized",
-"Normal"))
-```
-
-Risk thresholds are controlled entirely from the Settings worksheet.
+*Drives the conditional formatting on the executive dashboard to highlight required interventions.*
 
 </details>
 
 ---
 
-### Validation Rules
+## The Business Logic & Methodology
 
-| Field | Validation Rule | Error Behaviour |
-|-------|-----------------|----------------|
-| Employee ID | Must exist in Employee Master | Employee displays as unrecognized and payroll calculations stop. |
-| Employee ID | Must be unique | Duplicate validation warning displayed. |
-| Department | Selected from standardized master list | Prevents inconsistent reporting dimensions. |
-| Regular Hours | Numeric value ≥ 0 | Negative values rejected. |
-| Overtime Hours | Numeric value ≥ 0 | Invalid values excluded from payroll calculations. |
-| Allowances | Numeric value | Non-numeric entries generate calculation errors. |
-| Hourly Rate | Positive numeric value | Zero or blank rates prevent payroll calculation. |
-| Contract Hours | Positive annual total | Required for utilization and remaining-hour calculations. |
-| Fiscal Year Start | Valid date | Annual calculations cannot initialize without it. |
-| Overtime Multiplier | Positive decimal | Applied globally to every overtime calculation. |
-| Capacity Thresholds | High threshold must exceed low threshold | Prevents incorrect workforce risk classification. |
+**The Core Business Problem:**
+Traditional HR and payroll systems are designed for *financial compliance*—they strictly process lagging indicators (capital that was already spent). However, Operations and HR leaders need *strategic decision support*—they require leading indicators (how much work can we take on next month without breaking the budget or burning out the team?). When financial payroll data is divorced from operational capacity, companies typically resort to reactive hiring, misallocate headcount, or unknowingly absorb massive overtime premiums.
 
-### Design Validation
+**The Applied Methodology:**
+This toolkit bridges the gap between Finance and Operations by applying three core workforce management (WFM) methodologies to your raw spreadsheet data:
 
-The workbook architecture follows several validation principles:
+**1. Time-Driven Capacity Modeling (Resource vs. Expense)**
+Instead of starting with monetary budgets, the model anchors on **Annual Contracted Hours** (FTE limits). By treating labor as a finite, depreciating resource rather than an open-ended expense, the dashboard calculates precise **Labor Utilization Rates**. This methodology shifts the management conversation from a financial post-mortem (*"Did we overspend this month?"*) to operational resource allocation (*"Do we have the operational bandwidth for next quarter's project?"*).
 
-- Single source of truth for employee master data.
-- Global business assumptions maintained only in the Settings worksheet.
-- Operational input isolated from analytical calculations.
-- Dashboard contains presentation only and accepts no manual data entry.
-- Formula cells remain protected while data-entry cells stay editable.
-- Dynamic array formulas expand automatically as employee records grow.
-- No VBA macros, ensuring compatibility with Microsoft 365 and Excel 2021+.
+**2. Decoupled Labor Cost Variance Analysis**
+A 10% increase in gross payroll provides no actionable insight on its own. The model's architecture automatically separates structural base pay from behavioral variable costs (overtime multiples and allowances). This **variance analysis methodology** instantly isolates whether a departmental budget overrun is caused by standard wage inflation, a temporary seasonal overtime spike, or chronic structural understaffing.
 
-</details>
+**3. Proactive Risk Stratification (Leading vs. Lagging Indicators)**
+By continuously mapping Year-to-Date (YTD) actual hours against the global annual planning horizon, the algorithm functions as an early-warning system. It identifies **Workforce Compliance Risks** and trajectory-based employee burnout months before they manifest as expensive staff turnover, project bottlenecks, or labor law violations.
 
 ---
 
-## Other Tools in This Series
+## Explore More Business Operations Templates
 
-I build lightweight Excel decision-support tools for operations, finance, inventory, and business planning. Related projects include:
+I specialize in engineering lightweight, high-impact Excel decision-support models for complex operational workflows. Explore the broader toolkit ecosystem:
 
-- **Demand-Adaptive Inventory Planning & Purchasing Decision Excel Toolkit** — Inventory forecasting, reorder planning, and purchasing decisions.
-- **Restaurant Menu Configuration & Modifier Pricing Excel Toolkit** — Menu engineering, pricing logic, and profitability analysis.
-- **Employee Performance & Annual Work Planning Excel Toolkit** — Goal setting, KPI tracking, workload planning, and performance reviews.
-- **Rental Property Operations & Vacancy Intelligence Excel Toolkit** — Vacancy planning, occupancy analysis, and rental operations management.
-- **Manufacturing Labor Cost & Capacity Planning Excel Toolkit** — Production labour utilization, costing, and workforce planning.
-
-More decision-support templates are available through the GitHub repository and Gumroad store.
+* **Demand-Adaptive Inventory Planning & Purchasing Decision Excel Toolkit** — Forecast supply chain demands and optimize reorder points.
+* **Restaurant Menu Configuration & Modifier Pricing Excel Toolkit** — Engineer profit margins and analyze POS modifier pricing logic.
+* **Employee Performance & Annual Work Planning Excel Toolkit** — Map OKRs, track KPIs, and structure quantitative performance reviews.
+* **Rental Property Operations & Vacancy Intelligence Excel Toolkit** — Calculate property yields, track tenant churn, and forecast occupancy cash flows.
+* **Manufacturing Labor Cost & Capacity Planning Excel Toolkit** — Optimize assembly line utilization and track direct/indirect manufacturing labor overhead.
 
 ---
 
@@ -603,7 +206,7 @@ More decision-support templates are available through the GitHub repository and 
 
 Licensed under the **Apache License 2.0**.
 
-You are free to use, modify, and distribute this project in accordance with the terms of the Apache License 2.0.
+You are free to use, modify, and distribute this software framework for both commercial and private organizational use in accordance with the terms of the Apache License 2.0.
 
 Copyright © 2026.
 
