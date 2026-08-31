@@ -10,7 +10,7 @@
 
 Try the interactive browser version for free. For ongoing monthly tracking, you can purchase the fully unlocked Excel version backed by a 30-day, no-questions-asked money-back guarantee.
 
-> 🌐 **Live Interactive Demo** → [Test the Free Online Workforce Planning Dashboard (Browser/HTML)](https://hyvoid.github.io/Enterprise-Payroll-Annual-Workforce-Capacity-Planning-Excel-Toolkit/)
+> 🌐 **Live Interactive Demo** → [Test the Free Online Workforce Planning Dashboard (Browser/HTML)](https://hyvoid.github.io/workforce-planning-payroll-excel-dashboard/)
 >
 > 📥 **Download Template** → [Download the Full Enterprise Payroll & Capacity Planning Excel Toolkit](https://alexhasgreatestuff.gumroad.com/l/ufscrp?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=payroll-workforce-planning)
 
