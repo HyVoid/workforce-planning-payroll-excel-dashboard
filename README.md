@@ -12,7 +12,7 @@ Try the interactive browser version for free. For ongoing monthly tracking, you 
 
 > 🌐 **Live Interactive Demo** → [Test the Free Online Workforce Planning Dashboard (Browser/HTML)](https://hyvoid.github.io/workforce-planning-payroll-excel-dashboard/)
 >
-> 📥 **Download Template** → [Download the Full Enterprise Payroll & Capacity Planning Excel Toolkit](https://alexhasgreatestuff.gumroad.com/l/ufscrp?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=payroll-workforce-planning)
+> 📥 **Download Template** → [Download the Full Enterprise Payroll & Capacity Planning Excel Toolkit](https://www.theseusworkshop.com/l/ufscrp?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=payroll-workforce-planning)
 
 ---
 
@@ -85,7 +85,7 @@ Switch to the `Payroll_Summary`, `Annual_Hours_Tracker`, or `Dashboard` views. T
 ### Step 4: Scale Your Monthly Workforce Planning (Call to Action)
 Repeat the localized data import whenever a new pay period closes. The model automatically appends new data while preserving historical trends for year-over-year analysis. 
 
-> **Ready to move beyond a one-time trial?** After testing your metrics in the browser, 📥 **[Download the reusable Excel Workforce Planning Template](https://alexhasgreatestuff.gumroad.com/l/ufscrp)** to securely store your localized data, conduct offline analysis, and manage continuous monthly payroll cycles without recurring SaaS subscription fees.
+> **Ready to move beyond a one-time trial?** After testing your metrics in the browser, 📥 **[Download the reusable Excel Workforce Planning Template](https://www.theseusworkshop.com/l/ufscrp)** to securely store your localized data, conduct offline analysis, and manage continuous monthly payroll cycles without recurring SaaS subscription fees.
 
 ---
 
