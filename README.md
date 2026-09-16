@@ -1,3 +1,5 @@
+[ 🌐 عربي ](README.ar.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
+
 # Enterprise Payroll & Workforce Capacity Planning Excel Template | Labor Cost & Overtime Tracker
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
