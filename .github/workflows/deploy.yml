@@ -18,12 +18,13 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Setup Node.js 22
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          # Cache disabled intentionally to prevent failure when lockfile is absent
-          cache: ''
+          node-version: 22
+
+      - name: Verify Node.js Version
+        run: node --version
 
       - name: Install Dependencies
         run: npm install
