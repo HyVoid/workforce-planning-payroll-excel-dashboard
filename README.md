@@ -250,6 +250,24 @@ I specialize in engineering lightweight, high-impact Excel decision-support mode
 
 ---
 
+## Questions, Feedback & Product Updates
+
+This repository is part of the Theseus Workshop collection of lightweight, reusable business decision-support tools. Feedback is welcome, including questions about how to use the workbook, workflow gaps, reproducible calculation problems, and ideas for improving the tool.
+
+- **Questions and usage help:** [Open a discussion](https://github.com/HyVoid/business-decision-toolbox/discussions/categories/questions)
+- **Ideas and workflow suggestions:** [Share an idea](https://github.com/HyVoid/business-decision-toolbox/discussions/categories/ideas)
+- **Product updates:** [Follow product updates](https://github.com/HyVoid/business-decision-toolbox/discussions/categories/product-updates)
+- **Technical bugs:** Use the **Report a bug** issue form in this repository. Please include the workbook / tool version, the relevant workflow area, expected vs. actual result, and reproducible steps.
+
+
+Do not submit employee names, payroll IDs, salaries, bank details, tax identifiers, timesheets tied to identifiable workers, or HR records. Use fictitious employee IDs and synthetic pay data.
+
+## Privacy & Data Handling Notice
+
+Please use synthetic or adequately de-identified examples when reporting an issue. Do not publish raw workbooks, customer / supplier / employee / tenant / property / investor / production / payroll / transaction records, confidential commercial data, credentials, or screenshots containing sensitive information in public GitHub issues or discussions.
+
+For browser-based tools, do not infer data storage, transmission, or retention behavior from the user interface alone. Review the current implementation and applicable data-handling notes before testing with real business data. When uncertain, use synthetic data only.
+
 ## License
 
 Licensed under the **Apache License 2.0**.
